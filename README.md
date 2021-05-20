@@ -6,14 +6,6 @@ Here are some selected open source projects I have worked on. They are in two ca
 
 I have four demos to share with you. All of these are projects which I did by myself or which I led. Source code is available for each of them.
 
-### 2048
-
-This is a program which plays the game of 2048 using an AI algorithm and lets you watch it in real time. I have never seen it lose (i.e., fail to reach the 2048 tile). This program is written in JavaScript using jQuery. I did this by myself.
-
-URL: http://morgan-thomas-demos.net:3001/
-
-Source: https://github.com/morganthomas/2048-js
-
 ### Fairy Chess
 
 This is a two-player online game which is like chess, except that the rules for piece movement are generated randomly (within certain defined parameters). This program is written in JavaScript using the MEAN stack (MongoDB, ExpressJS, Angular 1, and Node). I did this by myself.
@@ -23,6 +15,22 @@ URL: http://morgan-thomas-demos.net:3000/
 Video demo: https://www.youtube.com/watch?v=fBlJpnxy0fs
 
 Source: https://github.com/morganthomas/fairy-chess
+
+### 2048
+
+This is a program which plays the game of 2048 using an AI algorithm and lets you watch it in real time. I have never seen it lose (i.e., fail to reach the 2048 tile). This program is written in JavaScript using jQuery. I did this by myself.
+
+URL: http://morgan-thomas-demos.net:3001/
+
+Source: https://github.com/morganthomas/2048-js
+
+### New Hampshire Bill Sign In Tool
+
+This is a website which allows you to submit your positions on bill hearings to the State of New Hampshire. It uses Selenium brower automation to operate the State of New Hampshire website, providing a more streamlined user interface for doing this task. This program is written using [Shpadoinkle](https://shpadoinkle.org), the Haskell UI framework.
+
+URL: http://testify-nh.org/
+
+Source: https://github.com/morganthomas/testify
 
 ### Shpadoinklekasten
 
@@ -37,14 +45,6 @@ Source:
  * Client: https://github.com/morganthomas/Shpadoinklekasten-client
  * Library (shared between the server and the client): https://github.com/morganthomas/Shpadoinklekasten-client
  * Docker build: https://github.com/morganthomas/Shpadoinklekasten-docker
-
-### New Hampshire Bill Sign In Tool
-
-This is a website which allows you to submit your positions on bill hearings to the State of New Hampshire. It uses Selenium brower automation to operate the State of New Hampshire website, providing a more streamlined user interface for doing this task.
-
-URL: http://testify-nh.org/
-
-Source: https://github.com/morganthomas/testify
 
 ## Library Code
 
