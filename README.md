@@ -4,7 +4,7 @@ Here are some selected open source projects I have worked on. They are in two ca
 
 ## Demos
 
-I have four demos to share with you. All of these are projects which I did by myself or which I led. Source code is available for each of them.
+I have four demos to share with you. All of these are projects which I did by myself or which I led.
 
 ### Fairy Chess
 
@@ -34,7 +34,7 @@ This is a website which allows you to submit your positions on bill hearings to 
 
 ### Shpadoinklekasten
 
-This is a note-taking app based on the Zettelkasten concept. It is not finished and it is a little rough around the edges. I wrote this as my first full application using [Shpadoinkle](http://shpadoinkle.org/), the Haskell UI framework. This app uses the MongoDB on the backend. I led this project with two other collaborators, who helped me for the purpose of learning Shpadoinkle.
+This is a note-taking app based on the Zettelkasten concept. It is not finished and it is a little rough around the edges. I wrote this as my first full application using [Shpadoinkle](http://shpadoinkle.org/), the Haskell UI framework. This app uses MongoDB on the backend. I led this project with two other collaborators, who helped me for the purpose of learning Shpadoinkle.
 
 **URL:** http://morgan-thomas-demos.net:8080/app
 
