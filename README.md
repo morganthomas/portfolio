@@ -60,6 +60,10 @@ This is an alternative to [`servant-client`](https://github.com/haskell-servant/
 
 **Source:** https://github.com/morganthomas/servant-client-js
 
+### pseudo-inverse-category
+
+This Haskell library defines the concept of pseudo-inverse categories, which are categories where each morphism has a pseudo-inverse. Pseudo-inverses are a relaxation of the concept of inverses of morphisms. Every inverse is a pseudo-inverse but not vice versa. This library defines the category EndoIso, the motivating example of a pseudo-inverse category, where the morphisms are compositions of an endomorphism with an isomorphism. This library also characterizes core Shpadoinkle abstractions (`Continuation m`, `Html m`, `Prop m`, and `Props m`) as endofunctors of the `EndoIso` category. That is the motivating application of these concepts: to illustrate the functorial nature of Shpadoinkle continuations and abstractions built on top of them.
+
 ### Compactable and Categorical Compactable
 
 This is a Haskell abstraction which greatly generalizes `catMaybes`. Isaac Shapira is primarily responsible for this library, but I helped him to flesh out the concept. I am also responsible for generalizing the concept of Compactable from the category of Haskell types and functions to arbitrary Categories, in the Categorical Compactable library, which is still only a sketch. Perhaps we will unify these two libraries someday.
