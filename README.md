@@ -1,6 +1,6 @@
 # Morgan Thomas project portfolio
 
-Here are some selected open source projects I have worked on. They are in two categories: demoable projects which I did by myself or as the project leader, and non-demoable library code which I did in collaboration with others in some cases.
+Here are some selected open source projects I have worked on. They are in two categories: demoable projects which I did by myself or as the project leader, and non-demoable library code which I did in collaboration with others in some cases. These projects are mainly written in Haskell, JavaScript, and Nix.
 
 ## Demos
 
