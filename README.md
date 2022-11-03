@@ -1,52 +1,26 @@
 # Morgan Thomas project portfolio
 
-Here are some selected open source projects I have worked on. They are in two categories: demoable projects which I did by myself or as the project leader, and non-demoable library code which I did in collaboration with others in some cases. These projects are mainly written in Haskell, JavaScript, and Nix.
+Here are some selected open source code bases where I was a primary contributor.
 
-## Demos
+## Orbis
 
-I have four demos to share with you. All of these are projects which I did by myself or which I led.
+### Orbis specification language (OSL) compiler
 
-### Fairy Chess
+I am the author of the Orbis specification language (OSL) and [its Haskell compiler](https://github.com/Orbis-Tertius/osl).
+This is a high-level specification language designed to be compiled efficiently to arithmetic circuits. I am actively
+developing this.
 
-This is a two-player online game which is like chess, except that the rules for piece movement are generated randomly (within certain defined parameters). This program is written in JavaScript using the MEAN stack (MongoDB, ExpressJS, Angular 1, and Node). I did this by myself.
+### Haskell FRI proofs
 
-**URL:** http://morgan-thomas-demos.net:3000/
+I am a primary author of [Orbis haskell-fri-proofs](https://github.com/Orbis-Tertius/haskell-fri-proofs), an
+implementation of [FRI (Fast Reed-Solomon IOP of Proximity)](https://www.semanticscholar.org/paper/Fast-Reed-Solomon-Interactive-Oracle-Proofs-of-Ben-Sasson-Bentov/2415603b4e8799f575b788706be21862c055e25b) in Haskell.
 
-**Video demo:** https://www.youtube.com/watch?v=fBlJpnxy0fs
+### TinyRAM emulator
 
-**Source:** https://github.com/morganthomas/fairy-chess
+I am a primary author of [the Orbis TinyRAM emulator](https://github.com/Orbis-Tertius/tinyram), an emulator for the
+TinyRAM zkVM architecture written in Haskell.
 
-### 2048
-
-This is a program which plays the game of 2048 using an AI algorithm and lets you watch it in real time. I have never seen it lose (i.e., fail to reach the 2048 tile). This program is written in JavaScript using jQuery. I did this by myself.
-
-**URL:** http://morgan-thomas-demos.net:3001/
-
-**Source:** https://github.com/morganthomas/2048-js
-
-### New Hampshire Bill Sign In Tool
-
-This is a website which allows you to submit your positions on bill hearings to the State of New Hampshire. It uses Selenium brower automation to operate the State of New Hampshire website, providing a more streamlined user interface for doing this task. This program is written using [Shpadoinkle](https://shpadoinkle.org), the Haskell UI framework.
-
-**URL:** http://testify-nh.org/
-
-**Source:** https://github.com/morganthomas/testify
-
-### Shpadoinklekasten
-
-This is a note-taking app based on the Zettelkasten concept. It is not finished and it is a little rough around the edges. I wrote this as my first full application using [Shpadoinkle](http://shpadoinkle.org/), the Haskell UI framework. This app uses MongoDB on the backend. I led this project with two other collaborators, who helped me for the purpose of learning Shpadoinkle.
-
-**URL:** http://morgan-thomas-demos.net:8080/app
-
-You can log into this demo with the username `demo` and the password `password`.
-
-**Source:**
- * Server: https://github.com/morganthomas/Shpadoinklekasten-server
- * Client: https://github.com/morganthomas/Shpadoinklekasten-client
- * Library (shared between the server and the client): https://github.com/morganthomas/Shpadoinklekasten-client
- * Docker build: https://github.com/morganthomas/Shpadoinklekasten-docker
-
-## Library Code
+## Haskell frontend development
 
 ### Shpadoinkle
 
@@ -59,15 +33,3 @@ I am a major contributor to [Shpadoinkle](https://shpadoinkle.org/), the Haskell
 This is an alternative to [`servant-client`](https://github.com/haskell-servant/servant) for use in web browsers. Servant is a Haskell framework for building APIs. `servant-client` is a part of Servant which deals with automatically creating functions to call Servant APIs. `servant-client` supports being used in web browsers, but in this context it does not support streaming HTTP responses, because under the hood it uses `XMLHttpRequest`, which does not support streaming responses. Therefore I made `servant-client-js`, which uses the Fetch API under the hood and supports streaming HTTP responses. I did this by myself. This library is a dependency of Shpadoinkle.
 
 **Source:** https://github.com/morganthomas/servant-client-js
-
-### pseudo-inverse-category
-
-This Haskell library defines the concept of pseudo-inverse categories, which are categories where each morphism has a pseudo-inverse. Pseudo-inverses are a relaxation of the concept of inverses of morphisms. Every inverse is a pseudo-inverse but not vice versa. This library defines the category EndoIso, the motivating example of a pseudo-inverse category, where the morphisms are compositions of an endomorphism with an isomorphism. This library also characterizes core Shpadoinkle abstractions (`Continuation m`, `Html m`, `Prop m`, and `Props m`) as endofunctors of the `EndoIso` category. That is the motivating application of these concepts: to illustrate the functorial nature of Shpadoinkle continuations and abstractions built on top of them.
-
-### Compactable and Categorical Compactable
-
-This is a Haskell abstraction which greatly generalizes `catMaybes`. Isaac Shapira is primarily responsible for this library, but I helped him to flesh out the concept. I am also responsible for generalizing the concept of Compactable from the category of Haskell types and functions to arbitrary Categories, in the Categorical Compactable library, which is still only a sketch. Perhaps we will unify these two libraries someday.
-
-**Source:**
- * Compactable: https://gitlab.com/fresheyeball/Compactable
- * Categorical Compactable: https://github.com/morganthomas/categorical-compactable/blob/master/src/Control/Categorical/Compactable.hs
