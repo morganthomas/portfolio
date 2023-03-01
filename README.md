@@ -1,19 +1,19 @@
 # Morgan Thomas project portfolio
 
-Here are some selected open source code bases where I was a primary contributor.
+Here are some selected open source code bases where I am a primary contributor.
 
-## Orbis
+## Zero knowledge cryptography
 
-### Orbis specification language (OSL) compiler
+### Open Specification Language (OSL) compiler
 
-I am the author of the Orbis specification language (OSL) and [its Haskell compiler](https://github.com/Orbis-Tertius/osl).
+I am the primary author of the Open Specification Language (OSL) and [its Haskell compiler](https://github.com/Polytopoi/osl).
 This is a high-level specification language designed to be compiled efficiently to arithmetic circuits. I am actively
 developing this.
 
 ### Haskell FRI proofs
 
-I am a primary author of [Orbis haskell-fri-proofs](https://github.com/Orbis-Tertius/haskell-fri-proofs), an
-implementation of [FRI (Fast Reed-Solomon IOP of Proximity)](https://www.semanticscholar.org/paper/Fast-Reed-Solomon-Interactive-Oracle-Proofs-of-Ben-Sasson-Bentov/2415603b4e8799f575b788706be21862c055e25b) in Haskell.
+I am a primary author of [Orbis haskell-fri-proofs](https://github.com/Orbis-Tertius/haskell-fri-proofs).This codebase contains an
+implementation of [FRI (Fast Reed-Solomon IOP of Proximity)](https://www.semanticscholar.org/paper/Fast-Reed-Solomon-Interactive-Oracle-Proofs-of-Ben-Sasson-Bentov/2415603b4e8799f575b788706be21862c055e25b), and a partial implementation of the PLONK IOP, in Haskell.
 
 ### TinyRAM emulator
 
