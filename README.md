@@ -7,8 +7,7 @@ Here are some selected open source code bases where I am a primary contributor.
 ### Open Specification Language (OSL) compiler
 
 I am the primary author of the Open Specification Language (OSL) and [its Haskell compiler](https://github.com/Polytopoi/osl).
-This is a high-level specification language designed to be compiled efficiently to arithmetic circuits. I am actively
-developing this.
+This is a high-level specification language designed to be compiled efficiently to arithmetic circuits. 
 
 ### Haskell FRI proofs
 
