@@ -6,7 +6,7 @@ Here are some selected open source code bases where I am a primary contributor.
 
 ### Valida
 
-I am technical lead and at times an individual contributor on [the Valida VM by Lita](https://github.com/lita-xyz/valida-vm) since mid-2023, as well as [the Valida tooolchain by Lita](https://github.com/lita-xyz/valida-releases), which consists of the Valida VM (open-source) and the Valida compiler toolchain (closed-source).
+I am technical lead and at times an individual contributor on [the Valida VM by Lita](https://github.com/lita-xyz/valida-vm) since mid-2023, as well as [the Valida tooolchain by Lita](https://github.com/lita-xyz/valida-releases), which consists of the Valida VM (open-source) and the Valida compiler toolchain (closed-source). These projects are written mainly in Rust and C++.
 
 ### Open Specification Language (OSL) compiler
 
