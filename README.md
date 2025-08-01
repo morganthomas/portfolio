@@ -4,6 +4,10 @@ Here are some selected open source code bases where I am a primary contributor.
 
 ## Zero knowledge cryptography
 
+### Valida
+
+I am technical lead and at times an individual contributor on [the Valida VM by Lita](https://github.com/lita-xyz/valida-vm) since mid-2023, as well as [the Valida tooolchain by Lita](https://github.com/lita-xyz/valida-releases), which consists of the Valida VM (open-source) and the Valida compiler toolchain (closed-source).
+
 ### Open Specification Language (OSL) compiler
 
 I am the primary author of the Open Specification Language (OSL) and [its Haskell compiler](https://github.com/Polytopoi/osl).
