@@ -4,9 +4,13 @@ Here are some selected open source code bases where I am a primary contributor.
 
 ## Zero knowledge cryptography
 
+### LeanVM / LeanDSL
+
+I am a contributor to [leanMultisig](https://github.com/leanEthereum/leanMultisig), a post-quantum signature aggregation scheme being developed for use in Ethereum. [My contributions](https://github.com/leanEthereum/leanMultisig/issues?q=is%3Apr+author%3Amorganthomas) relate to the compiler for the DSL used to express programs which run in the application-specific zkVM known as leanVM.
+
 ### Valida
 
-I am technical lead and at times an individual contributor on [the Valida VM by Lita](https://github.com/lita-xyz/valida-vm) since mid-2023, as well as [the Valida tooolchain by Lita](https://github.com/lita-xyz/valida-releases), which consists of the Valida VM (open-source) and the Valida compiler toolchain (closed-source). These projects are written mainly in Rust and C++.
+I was the technical lead and an individual contributor on [the Valida VM by Lita](https://github.com/lita-xyz/valida-vm) from mid-2023 through 2025, as well as [the Valida toolchain by Lita](https://github.com/lita-xyz/valida-releases), which consists of the Valida VM (open-source) and the Valida compiler toolchain (closed-source). These projects are written mainly in Rust and C++.
 
 ### Open Specification Language (OSL) compiler
 
