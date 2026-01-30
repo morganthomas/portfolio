@@ -10,7 +10,7 @@ I am a contributor to [leanMultisig](https://github.com/leanEthereum/leanMultisi
 
 ### Valida
 
-I was the technical lead and an individual contributor on [the Valida VM by Lita](https://github.com/lita-xyz/valida-vm) from mid-2023 through 2025, as well as [the Valida toolchain by Lita](https://github.com/lita-xyz/valida-releases), which consists of the Valida VM (open-source) and the Valida compiler toolchain (closed-source). These projects are written mainly in Rust and C++.
+I was the technical lead and an individual contributor on [the Valida VM by Lita](https://github.com/lita-xyz/valida-vm) from mid-2023 through 2025, as well as [the Valida toolchain by Lita](https://github.com/lita-xyz/valida-releases), which consists of the Valida VM (open-source) and the Valida compiler toolchain (closed-source). These projects are written mainly in Rust and C++. I led the development of [reth-valida](https://github.com/lita-xyz/reth-valida), a port of the [reth](https://reth.rs/) Ethereum execution engine to the Valida toolchain.
 
 ### Open Specification Language (OSL) compiler
 
